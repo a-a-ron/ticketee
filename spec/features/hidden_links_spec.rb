@@ -46,7 +46,7 @@ feature "hidden links"  do
 			assert_link_for "New Project"
 		end
 
-		cenario "can see the Edit Project link" do
+		scenario "can see the Edit Project link" do
 			visit project_path(project)
 			assert_link_for "Edit Project"
 		end
