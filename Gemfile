@@ -29,6 +29,9 @@ gem 'spring',        group: :development
 # To ues ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 
+# Used for the cannot? method and it's antithesis, can?. This gem will help tie together user and permission records.
+gem 'cancan', '~> 1.6.10'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
